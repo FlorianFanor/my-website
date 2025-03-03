@@ -1,6 +1,6 @@
 interface WorkItemProps {
     data: {
-        year: string;
+        year: number;
         title: string;
         description: string;
         duration: string;
