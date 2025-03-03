@@ -1,5 +1,10 @@
+interface ProjectItemProps {
+    image: string;
+    title: string;
+    link: string;
+  }
 
-const ProjectItem = ({ image, title, link}) => {
+const ProjectItem = ({ image, title, link}: ProjectItemProps) => {
     return (
         <a href={link} target="_blank" className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group focus:bg-gradient-to-r hover:bg-gradient-to-r from-[#001b5e] to-gray-500">
             <img src={image} alt="" className="rounded-xl group-hover:opacity-10 group-focus:opacity-10" />

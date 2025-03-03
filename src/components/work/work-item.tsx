@@ -1,4 +1,14 @@
-const WorkItem = ({ data }) => {
+interface WorkItemProps {
+    data: {
+        year: string;
+        title: string;
+        description: string;
+        duration: string;
+        stack: string;
+    }; 
+  }
+
+const WorkItem = ({ data }: WorkItemProps) => {
 
     const { year, title, description, duration, stack } = data;
     
