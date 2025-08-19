@@ -13,7 +13,7 @@
   --primary-700: #1d4ed8;
   --primary-800: #1e40af;
   --primary-900: #1e3a8a;
-  
+
   --secondary-50: #f8fafc;
   --secondary-100: #f1f5f9;
   --secondary-200: #e2e8f0;
@@ -24,7 +24,7 @@
   --secondary-700: #334155;
   --secondary-800: #1e293b;
   --secondary-900: #0f172a;
-  
+
   --accent-50: #fdf4ff;
   --accent-100: #fae8ff;
   --accent-200: #f5d0fe;
@@ -35,12 +35,17 @@
   --accent-700: #a21caf;
   --accent-800: #86198f;
   --accent-900: #701a75;
-  
+
   --gradient-primary: linear-gradient(135deg, var(--primary-600) 0%, var(--primary-800) 100%);
   --gradient-secondary: linear-gradient(135deg, var(--secondary-100) 0%, var(--secondary-200) 100%);
   --gradient-accent: linear-gradient(135deg, var(--accent-500) 0%, var(--primary-600) 100%);
-  --gradient-hero: linear-gradient(135deg, var(--primary-600) 0%, var(--accent-600) 50%, var(--primary-800) 100%);
-  
+  --gradient-hero: linear-gradient(
+    135deg,
+    var(--primary-600) 0%,
+    var(--accent-600) 50%,
+    var(--primary-800) 100%
+  );
+
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -83,7 +88,8 @@
 }
 
 @keyframes pulse-glow {
-  0%, 100% {
+  0%,
+  100% {
     box-shadow: 0 0 20px rgb(59 130 246 / 0.4);
   }
   50% {
@@ -92,7 +98,8 @@
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
   }
   50% {

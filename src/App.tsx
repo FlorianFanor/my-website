@@ -16,7 +16,6 @@ function App() {
         <Route path="/blog/:postId" element={<BlogDetail />} />
       </Routes>
     </>
-
   );
 }
 
