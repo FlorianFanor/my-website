@@ -21,7 +21,7 @@ export const useWorkExperience = (data: WorkExperience[]) => {
     }
   };
 
-  const timelineHeight = `${data.length * 380}px`;
+  const timelineHeight = `${data.length * 350}px`;
 
   return {
     expandedItem,

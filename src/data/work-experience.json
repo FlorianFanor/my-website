@@ -1,110 +1,125 @@
 [
   {
     "year": 2023,
-    "title": "Technical Lead / Lead Experience Engineer",
+    "title": "Lead Experience Engineer",
     "company": "Publicis Sapient",
-    "duration": "Until now",
-    "stack": "React, NextJS, Apollo GraphQL, Docker, Github, Figma, Splunk, Redpanda, Accessibility",
+    "duration": "Dec 2023 - Present",
+    "stack": "JavaScript, TypeScript, React.js, Next.js, Apollo GraphQL, Redis, CoreMedia CMS",
     "details": {
-      "overview": "Leading technical initiatives and ensuring exceptional user experiences across multiple high-profile client projects.",
+      "overview": "Technical leadership on an international e-commerce platform, focusing on scalable architecture and seamless user experiences across multiple markets.",
       "accomplishments": [
-        "Led a team of 6+ developers across multiple frontend projects",
-        "Architected scalable React applications serving 1M+ monthly users",
-        "Improved application performance by 40% through optimization strategies",
-        "Implemented comprehensive accessibility standards achieving WCAG 2.1 AA compliance",
-        "Established CI/CD pipelines reducing deployment time by 60%"
+        "Led technical supervision of development team for international e-commerce platform across multiple markets",
+        "Implemented modular frontend architecture optimized for high traffic and scalability requirements",
+        "Successfully integrating CoreMedia CMS features to manage dynamic content workflows for different regional markets",
+        "Maintain a performance mindset by continuously monitoring, checking and improving application performance",
+        "Ensured code quality and knowledge transfer through regular PR reviews and technical mentoring",
+        "Implemented accessibility standards and best practices to ensure WCAG compliance across the platform",
+        "Collaborated effectively with UI/UX designers, Product Managers, and architects to shape product features",
+        "Implemented mob programming sessions within the team that enhanced team collaboration and knowledge sharing",
+        "Working in collaboration with other leads on comprehensive best practices for frontend development and CMS integration workflows"
       ],
       "responsibilities": [
-        "Technical architecture and code review leadership",
-        "Mentoring junior and mid-level developers",
-        "Client stakeholder communication and requirement gathering",
-        "Performance optimization and accessibility implementation"
+        "Technical leadership and team coordination",
+        "Code review and quality assurance through PR reviews",
+        "Accessibility implementation and WCAG compliance",
+        "Performance optimization and monitoring",
+        "CMS integration and content management architecture",
+        "Cross-functional collaboration with design, product, and architecture teams",
+        "Development methodologies and best practices implementation",
+        "E-commerce platform development and maintenance",
+        "Developer mentoring and technical guidance"
       ]
     }
   },
   {
     "year": 2022,
-    "title": "Senior Frontend Developer",
+    "title": "Software Engineer",
     "company": "Publicis Sapient",
-    "duration": "1 year 10 months",
-    "stack": "React, NextJS, Apollo GraphQL, Azure, Jira, Confluence, Figma, Coremedia, Jest, RTL, Nx Monorepo",
+    "duration": "Mar 2022 - Dec 2023",
+    "stack": "JavaScript, TypeScript, React.js, Next.js, Apollo GraphQL, Redis",
     "details": {
-      "overview": "Developed and maintained complex frontend applications for enterprise clients using modern React ecosystem.",
+      "overview": "Development of a complex e-commerce platform for a major international retail client, focusing on user experience and technical excellence.",
       "accomplishments": [
-        "Built responsive web applications for Fortune 500 companies",
-        "Reduced bundle size by 35% through code splitting and optimization",
-        "Achieved 95% test coverage using Jest and React Testing Library",
-        "Collaborated with UX/UI teams to deliver pixel-perfect implementations"
+        "Built responsive and accessible user interfaces with strong attention to performance and user experience",
+        "Integrated GraphQL APIs and managed complex data flows in close collaboration with backend development teams",
+        "Actively contributed to code reviews, helping maintain code quality and supporting team knowledge sharing",
+        "Participated in automated testing setup and CI/CD pipeline improvements to enhance deployment reliability"
       ],
       "responsibilities": [
-        "Frontend development using React and NextJS",
+        "Frontend development using React.js and Next.js",
         "GraphQL API integration and state management",
-        "Unit and integration testing implementation",
-        "Code review and knowledge sharing"
+        "Performance optimization and accessibility implementation",
+        "Code review participation and team collaboration",
+        "Testing automation and CI/CD pipeline contribution"
       ]
     }
   },
   {
     "year": 2019,
-    "title": "Senior Fullstack Developer",
-    "company": "VII Origin",
-    "duration": "2 years 4 months",
-    "stack": "React, React Native, Python, Django, Gitlab, SQL, REST",
+    "title": "Software Engineer",
+    "company": "Group VII Origin",
+    "duration": "Oct 2019 - Jan 2022",
+    "stack": "JavaScript, React.js, React Native",
     "details": {
-      "overview": "Full-stack development focusing on web and mobile applications with Python backend services.",
+      "overview": "Development of frontend web and mobile applications with focus on performance optimization and cross-platform compatibility.",
       "accomplishments": [
-        "Developed cross-platform mobile app with 50k+ downloads",
-        "Built RESTful APIs handling 10k+ daily requests",
-        "Implemented real-time features using WebSocket connections",
-        "Optimized database queries improving response time by 50%"
+        "Developed responsive web applications using modern React.js practices and component-based architecture",
+        "Built cross-platform mobile applications with React Native, ensuring consistent user experience across devices",
+        "Optimized application performance and improved compatibility across different platforms and browsers",
+        "Implemented modern JavaScript patterns and established reusable component libraries"
       ],
       "responsibilities": [
-        "Full-stack development with React and Python/Django",
-        "Mobile app development using React Native",
-        "Database design and API development",
-        "DevOps and deployment management"
+        "Frontend web application development",
+        "Cross-platform mobile development with React Native",
+        "Performance optimization and debugging",
+        "Multi-platform compatibility testing and implementation",
+        "Modern JavaScript development practices and architecture"
       ]
     }
   },
   {
     "year": 2019,
-    "title": "Fullstack Developer",
-    "company": "ELCA - Elca Informatique SA",
-    "duration": "9 months",
-    "stack": "Angular 7, .NET Core, SQL, REST",
+    "title": "Software Engineer",
+    "company": "ELCA Informatique SA",
+    "duration": "Feb 2019 - Oct 2019",
+    "stack": "ASP.NET MVC, JavaScript, AngularJS",
     "details": {
-      "overview": "Enterprise application development using Angular and .NET Core for banking and finance sector.",
+      "overview": "Participation in enterprise projects based on ASP.NET MVC with front-end and back-end framework integration.",
       "accomplishments": [
-        "Delivered mission-critical banking application on schedule",
-        "Implemented secure authentication and authorization systems",
-        "Built responsive UI components for complex financial workflows"
+        "Contributed to ASP.NET MVC project development",
+        "Successfully integrated front-end and back-end frameworks",
+        "Developed responsive user interfaces with AngularJS",
+        "Collaborated on enterprise-level application architecture"
       ],
       "responsibilities": [
-        "Frontend development with Angular 7",
-        "Backend API development with .NET Core",
-        "Database integration and optimization",
-        "Security implementation and testing"
+        "ASP.NET MVC application development",
+        "Frontend integration with AngularJS",
+        "Full-stack framework integration",
+        "Enterprise application maintenance",
+        "Code quality and best practices implementation"
       ]
     }
   },
   {
     "year": 2017,
-    "title": "Fullstack Developer",
-    "company": "Proximity BBDO",
-    "duration": "1 year 2 months",
-    "stack": "HTML5, CSS3, JS, JQuery, AJAX, .NET framework, MVC, REST, SQL",
+    "title": "Software Engineer",
+    "company": "Proximity BBDO Indian Ocean",
+    "duration": "Dec 2017 - Jan 2019",
+    "stack": "ASP.NET MVC, JavaScript, HTML, CSS",
     "details": {
-      "overview": "Web development for marketing and advertising campaigns using traditional web technologies.",
+      "overview": "Development of custom web solutions for marketing and advertising projects.",
       "accomplishments": [
-        "Developed interactive marketing websites for major brands",
-        "Created responsive designs supporting all device types",
-        "Implemented dynamic content management systems"
+        "Developed custom web solutions for marketing campaigns",
+        "Created responsive and interactive web interfaces",
+        "Implemented content management features for dynamic websites",
+        "Delivered projects for various advertising and marketing clients"
       ],
       "responsibilities": [
-        "Frontend development with HTML5, CSS3, JavaScript",
-        "Backend development using .NET MVC framework",
-        "Database design and implementation",
-        "Client communication and project delivery"
+        "Custom web solution development",
+        "Frontend development with HTML, CSS, JavaScript",
+        "ASP.NET MVC backend development",
+        "Client project delivery and support",
+        "Responsive design implementation"
       ]
     }
   }
