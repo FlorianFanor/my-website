@@ -1,22 +1,25 @@
-import './App.css'
-import Banner from './components/banner'
-import Project from './components/project/project'
-import Sidenav from './components/sidenav'
-import Work from './components/work/work'
-import Resume from './components/resume/resume'
-import Contact from './components/contact/contact'
+import { Routes, Route } from "react-router-dom";
+import Blog from "./pages/blogs";
+import Home from "./pages/home";
+import Sidenav from "./components/sidenav";
+import ScrollToTop from "./components/scroll-to-top";
+import BlogDetail from "./pages/blog-details";
+import CallStackVisualizer from "./pages/call-stack-visualizer";
 
 function App() {
   return (
     <>
-     <Sidenav />
-     <Banner  />
-     <Work />
-     <Project />
-     <Resume />
-     <Contact />
+      <Sidenav />
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:postId" element={<BlogDetail />} />
+        <Route path="/call-stack" element={<CallStackVisualizer />} />
+      </Routes>
     </>
-  )
+
+  );
 }
 
-export default App
+export default App;

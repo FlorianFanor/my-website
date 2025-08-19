@@ -1,0 +1,111 @@
+[
+  {
+    "year": 2023,
+    "title": "Technical Lead / Lead Experience Engineer",
+    "company": "Publicis Sapient",
+    "duration": "Until now",
+    "stack": "React, NextJS, Apollo GraphQL, Docker, Github, Figma, Splunk, Redpanda, Accessibility",
+    "details": {
+      "overview": "Leading technical initiatives and ensuring exceptional user experiences across multiple high-profile client projects.",
+      "accomplishments": [
+        "Led a team of 6+ developers across multiple frontend projects",
+        "Architected scalable React applications serving 1M+ monthly users",
+        "Improved application performance by 40% through optimization strategies",
+        "Implemented comprehensive accessibility standards achieving WCAG 2.1 AA compliance",
+        "Established CI/CD pipelines reducing deployment time by 60%"
+      ],
+      "responsibilities": [
+        "Technical architecture and code review leadership",
+        "Mentoring junior and mid-level developers",
+        "Client stakeholder communication and requirement gathering",
+        "Performance optimization and accessibility implementation"
+      ]
+    }
+  },
+  {
+    "year": 2022,
+    "title": "Senior Frontend Developer",
+    "company": "Publicis Sapient",
+    "duration": "1 year 10 months",
+    "stack": "React, NextJS, Apollo GraphQL, Azure, Jira, Confluence, Figma, Coremedia, Jest, RTL, Nx Monorepo",
+    "details": {
+      "overview": "Developed and maintained complex frontend applications for enterprise clients using modern React ecosystem.",
+      "accomplishments": [
+        "Built responsive web applications for Fortune 500 companies",
+        "Reduced bundle size by 35% through code splitting and optimization",
+        "Achieved 95% test coverage using Jest and React Testing Library",
+        "Collaborated with UX/UI teams to deliver pixel-perfect implementations"
+      ],
+      "responsibilities": [
+        "Frontend development using React and NextJS",
+        "GraphQL API integration and state management",
+        "Unit and integration testing implementation",
+        "Code review and knowledge sharing"
+      ]
+    }
+  },
+  {
+    "year": 2019,
+    "title": "Senior Fullstack Developer",
+    "company": "VII Origin",
+    "duration": "2 years 4 months",
+    "stack": "React, React Native, Python, Django, Gitlab, SQL, REST",
+    "details": {
+      "overview": "Full-stack development focusing on web and mobile applications with Python backend services.",
+      "accomplishments": [
+        "Developed cross-platform mobile app with 50k+ downloads",
+        "Built RESTful APIs handling 10k+ daily requests",
+        "Implemented real-time features using WebSocket connections",
+        "Optimized database queries improving response time by 50%"
+      ],
+      "responsibilities": [
+        "Full-stack development with React and Python/Django",
+        "Mobile app development using React Native",
+        "Database design and API development",
+        "DevOps and deployment management"
+      ]
+    }
+  },
+  {
+    "year": 2019,
+    "title": "Fullstack Developer",
+    "company": "ELCA - Elca Informatique SA",
+    "duration": "9 months",
+    "stack": "Angular 7, .NET Core, SQL, REST",
+    "details": {
+      "overview": "Enterprise application development using Angular and .NET Core for banking and finance sector.",
+      "accomplishments": [
+        "Delivered mission-critical banking application on schedule",
+        "Implemented secure authentication and authorization systems",
+        "Built responsive UI components for complex financial workflows"
+      ],
+      "responsibilities": [
+        "Frontend development with Angular 7",
+        "Backend API development with .NET Core",
+        "Database integration and optimization",
+        "Security implementation and testing"
+      ]
+    }
+  },
+  {
+    "year": 2017,
+    "title": "Fullstack Developer",
+    "company": "Proximity BBDO",
+    "duration": "1 year 2 months",
+    "stack": "HTML5, CSS3, JS, JQuery, AJAX, .NET framework, MVC, REST, SQL",
+    "details": {
+      "overview": "Web development for marketing and advertising campaigns using traditional web technologies.",
+      "accomplishments": [
+        "Developed interactive marketing websites for major brands",
+        "Created responsive designs supporting all device types",
+        "Implemented dynamic content management systems"
+      ],
+      "responsibilities": [
+        "Frontend development with HTML5, CSS3, JavaScript",
+        "Backend development using .NET MVC framework",
+        "Database design and implementation",
+        "Client communication and project delivery"
+      ]
+    }
+  }
+]
