@@ -4,7 +4,6 @@ import Home from "./pages/home";
 import Sidenav from "./components/sidenav";
 import ScrollToTop from "./components/scroll-to-top";
 import BlogDetail from "./pages/blog-details";
-import CallStackVisualizer from "./pages/call-stack-visualizer";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:postId" element={<BlogDetail />} />
-        <Route path="/call-stack" element={<CallStackVisualizer />} />
       </Routes>
     </>
 
