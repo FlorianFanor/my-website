@@ -1,52 +1,49 @@
 import WorkItem from "./work-item";
+import { useWorkExperience } from "../../hooks/useWorkExperience";
+import { WorkExperience } from "../../types/work";
+import workExperienceData from "../../data/work-experience.json";
 
 const Work = () => {
-    const data = [
-        {
-            year: 2023,
-            title: "Technical Lead / Lead Experience Engineer",
-            description: "Publicis Sapient",
-            duration: "Until now",
-            stack: "React, NextJS, Apollo GraphQL, Docker, Github, Figma, Splunk, Redpanda, Accessibility"
-        },
-        {
-            year: 2022,
-            title: "Senior Frontend Developer",
-            description: "Publicis Sapient",
-            duration: "1 year 10 months",
-            stack: "React, NextJS, Apollo GraphQL, Azure, Jira, Confluence, Figma, Coremedia, Jest, RTL, Nx Monorepo"
-        },
-        {
-            year: 2019,
-            title: "Senior Fullstack Developer",
-            description: "VII Origin",
-            duration: "2 years 4 months",
-            stack: "React, React Native, Python, Django, Gitlab, SQL, REST"
-        },
-        {
-            year: 2019,
-            title: "Fullstack Developer",
-            description: "ELCA - Elca Informatique SA",
-            duration: "9 months",
-            stack: "Angular 7, .NET Core, SQL, REST"
-        },
-        {
-            year: 2017,
-            title: "Fullstack Developer",
-            description: "Proximity BBDO",
-            duration: "1 year 2 months",
-            stack: "HTML5, CSS3, JS, JQuery, AJAX, .NET framework, MVC, REST, SQL"
-        }
-    ]
+    const data: WorkExperience[] = workExperienceData;
+    const { expandedItem, itemRefs, handleToggle, timelineHeight } = useWorkExperience(data);
 
 
     return (
-    <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-        <h2 className="text-4xl font-bold text-center text-gray-800 py-8">Work</h2>
-        {data.map((item, index) => (
-            <WorkItem key={index+item.year} data={item} />
-        ))}
-    </div>
+        <section id="work" className="py-20 bg-gradient-to-b from-slate-50 to-white">
+            <div className="max-w-6xl mx-auto px-4 md:px-8">
+                <div className="text-center mb-16 animate-fade-in-up">
+                    <h2 className="text-5xl md:text-6xl font-black text-gradient mb-6">Experience</h2>
+                    <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+                        My professional journey through different roles and technologies,
+                        building innovative solutions and leading development teams.
+                    </p>
+                </div>
+
+                <div className="relative">
+                    {/* Timeline line - hidden on mobile, visible on desktop */}
+                    <div className="absolute hidden md:block left-6 md:left-1/2 transform md:-translate-x-1/2 w-1 bg-gradient-to-b from-blue-400 via-purple-500 to-blue-600 rounded-full opacity-30"
+                        style={{ height: timelineHeight }}></div>
+
+                    <div className="space-y-12">
+                        {data.map((item, index) => (
+                            <div
+                                key={index + item.year}
+                                ref={(el) => (itemRefs.current[index] = el)}
+                                className="animate-fade-in-up scroll-mt-20"
+                                style={{ animationDelay: `${index * 0.2}s` }}
+                            >
+                                <WorkItem
+                                    data={item}
+                                    index={index}
+                                    isExpanded={expandedItem === index}
+                                    onToggle={() => handleToggle(index)}
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </section>
     );
 }
 export default Work;
