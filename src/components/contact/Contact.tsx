@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import { Label } from "../ui/label";
-import { MapPin, Send, MessageCircle, Linkedin, Github } from "lucide-react";
+import { MapPin, Send, MessageCircle, LinkedinIcon, GithubIcon } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import { useLanguage } from "../common/LanguageProvider";
@@ -134,7 +134,7 @@ export const Contact = () => {
             <Card className="group hover:border-primary/50 transition-all hover:shadow-lg border-primary/30">
               <CardHeader>
                 <div className="p-3 rounded-lg bg-primary/10 w-fit mb-3 group-hover:scale-110 transition-transform">
-                  <Linkedin className="w-6 h-6 text-primary" aria-hidden="true" />
+                  <LinkedinIcon className="w-6 h-6 text-primary" aria-hidden="true" />
                 </div>
                 <CardTitle>{t("contact.linkedin.title")}</CardTitle>
               </CardHeader>
@@ -157,7 +157,7 @@ export const Contact = () => {
             <Card className="group hover:border-primary/50 transition-all hover:shadow-lg">
               <CardHeader>
                 <div className="p-3 rounded-lg bg-primary/10 w-fit mb-3 group-hover:scale-110 transition-transform">
-                  <Github className="w-6 h-6 text-primary" aria-hidden="true" />
+                  <GithubIcon className="w-6 h-6 text-primary" aria-hidden="true" />
                 </div>
                 <CardTitle>{t("contact.github.title")}</CardTitle>
               </CardHeader>
