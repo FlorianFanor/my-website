@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { useLanguage } from "../common/LanguageProvider";
+import florianFanorImage from "../../../public/florianfanor.png";
 
 const getExperiences = (t: (key: string) => string) => [
   {
@@ -179,10 +180,7 @@ export const AboutMe = () => {
           <CardContent className="pt-6">
             <div className="flex flex-col md:flex-row gap-6 items-start">
               <Avatar className="w-32 h-32 border-4 border-primary/20">
-                <AvatarImage
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
-                  alt="Florian Fanor"
-                />
+                <AvatarImage src={florianFanorImage} alt="Florian Fanor" />
                 <AvatarFallback>FF</AvatarFallback>
               </Avatar>
 
