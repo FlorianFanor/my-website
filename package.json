@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && cp public/CNAME build/CNAME && cp build/index.html build/404.html",
+    "build": "tsc -b && vite build && cp public/CNAME dist/CNAME",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
@@ -16,7 +16,7 @@
     "quality:fix": "npm run type-check && npm run lint:fix && npm run format",
     "preview": "vite preview",
     "predeploy": "npm run quality:check && npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "prepare": "husky"
   },
   "dependencies": {
