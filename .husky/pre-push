@@ -1,6 +1,3 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
 # Run full quality checks before pushing
 echo "🔍 Running quality checks before push..."
 npm run quality:check
