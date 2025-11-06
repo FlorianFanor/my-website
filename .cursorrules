@@ -1,0 +1,59 @@
+# Project rules for Cursor
+
+## Coding style
+- Use TypeScript everywhere.
+- Prefer React hooks.
+- Use Tailwind CSS for styling.
+
+## LLM Agent Rules
+- Never modify the backend API contract.
+- Always ask before deleting a file.
+- Keep components small and composable.
+
+## Prompting instructions
+- When generating code, include comments that explain key logic.
+- Follow the folder structure example that follows.
+
+
+your-app/
+├─ .cursorrules
+├─ .env                # never checked in (local dev)
+├─ .env.example        # documented env names (no secrets)
+├─ package.json
+├─ tsconfig.json
+├─ vite.config.ts
+├─ public/
+│  ├─ index.html
+│  └─ prompts/
+│     ├─ system.v1.md
+│     ├─ tools.json
+│     └─ policies.md
+├─ src/
+│  ├─ app/
+│  │  ├─ App.tsx
+│  │  └─ routes.tsx
+│  ├─ components/
+│  │  ├─ blog/
+│  │  │  ├─ Blog.tsx
+│  │  │  ├─ BlogList.tsx
+│  │  │  └─ BlogPost.tsx
+│  │  └─ ui/
+│  │     ├─ Button.tsx
+│  │     └─ Card.tsx
+│  ├─ hooks/
+│  │  └─ usePrompt.ts
+│  ├─ lib/
+│  │  ├─ api.ts              # client -> server calls
+│  │  ├─ schema.ts           # zod schemas for requests/responses
+│  ├─ styles/
+│  │  └─ index.css
+│  ├─ Pages/
+│  │  ├─ Homepage.tsx
+│  │  ├─ About.tsx
+│  │  └─ etc...
+├─ server/                   # server or serverless adapter
+│  ├─ index.ts               # Fastify/Express entry (local)
+│  └─ routes/
+│     └─ agent.ts           # POST /api/agent (calls the LLM)
+└─ tests/
+   └─ agent.spec.ts
