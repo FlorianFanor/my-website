@@ -385,6 +385,22 @@ const translations = {
     "blog.backToBlog": "Retour aux articles",
     "blog.readTime": "min",
 
+    // 404
+    "notfound.title": "Perdu dans le DOM",
+    "notfound.subtitle":
+      "Cette page a pris une pause café. On a essayé « npm start », elle n’est pas revenue. Essayons ailleurs ?",
+    "notfound.cta.home": "Retour à l’accueil",
+    "notfound.cta.projects": "Voir mes projets",
+    "notfound.cta.back": "Revenir en arrière",
+    "notfound.note": "Erreur 404 — Même les meilleures routes ont des cul‑de‑sac.",
+
+    // 404 (camelCase alias for component variant)
+    "notFound.title": "Perdu dans le DOM",
+    "notFound.description":
+      "Cette page a pris une pause café. On a essayé « npm start », elle n’est pas revenue. Essayons ailleurs ?",
+    "notFound.backToHome": "Retour à l’accueil",
+    "notFound.funMessage": "Astuce: la page d’accueil a de meilleures directions 👀",
+
     // About Me - UI Labels
     "aboutme.cv.downloaded": "CV téléchargé !",
     "aboutme.cv.description": "Le fichier PDF a été téléchargé avec succès.",
@@ -874,6 +890,22 @@ const translations = {
     "blog.readArticle": "Read article →",
     "blog.backToBlog": "Back to articles",
     "blog.readTime": "min",
+
+    // 404
+    "notfound.title": "Lost in the DOM",
+    "notfound.subtitle":
+      "This page went for a coffee break. We tried yelling “npm start” but it didn’t return. Try one of these?",
+    "notfound.cta.home": "Back to Home",
+    "notfound.cta.projects": "View my projects",
+    "notfound.cta.back": "Go back",
+    "notfound.note": "Error 404 — Even the best routes have dead ends.",
+
+    // 404 (camelCase alias for component variant)
+    "notFound.title": "Lost in the DOM",
+    "notFound.description":
+      "This page went for a coffee break. We tried yelling “npm start” but it didn’t return. Try one of these?",
+    "notFound.backToHome": "Back to Home",
+    "notFound.funMessage": "Tip: the homepage has better directions 👀",
 
     // About Me - UI Labels
     "aboutme.cv.downloaded": "CV downloaded!",
