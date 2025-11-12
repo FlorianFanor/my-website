@@ -58,8 +58,13 @@ export const Contact = () => {
                 </div>
                 <CardDescription>{t("contact.form.description")}</CardDescription>
               </CardHeader>
-              <CardContent aria-hidden="true">
-                <form inert onSubmit={handleSubmit} className="space-y-6">
+              <CardContent aria-hidden="true" className="pointer-events-none">
+                <form
+                  aria-disabled="true"
+                  tabIndex={-1}
+                  onSubmit={handleSubmit}
+                  className="space-y-6"
+                >
                   <div className="space-y-2">
                     <Label htmlFor="name" className="flex items-center gap-2">
                       {t("contact.form.name")}
@@ -73,6 +78,7 @@ export const Contact = () => {
                       required
                       aria-required="true"
                       className="h-12"
+                      disabled
                     />
                   </div>
 
@@ -90,6 +96,7 @@ export const Contact = () => {
                       required
                       aria-required="true"
                       className="h-12"
+                      disabled
                     />
                   </div>
 
@@ -107,10 +114,11 @@ export const Contact = () => {
                       required
                       aria-required="true"
                       className="resize-none"
+                      disabled
                     />
                   </div>
 
-                  <Button type="submit" size="lg" className="w-full group" disabled={isSubmitting}>
+                  <Button type="submit" size="lg" className="w-full group" disabled>
                     {isSubmitting ? (
                       <>
                         <div className="w-4 h-4 mr-2 border-2 border-white/30 border-t-white rounded-full animate-spin" />
