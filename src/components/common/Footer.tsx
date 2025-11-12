@@ -16,7 +16,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <div className="text-2xl">{"<Dev />"}</div>
+            <div className="text-2xl">{"</>"}</div>
             <p className="text-sm text-muted-foreground max-w-xs">{t("footer.tagline")}</p>
           </div>
 
@@ -58,7 +58,7 @@ export const Footer = () => {
                 className="p-2.5 rounded-lg border bg-card hover:bg-accent hover:border-primary/50 transition-all hover:scale-110"
                 aria-label="GitHub"
               >
-                <Github className="w-5 h-5" />
+                <Github className="w-5 h-5" aria-hidden="true" />
               </a>
               <a
                 href="https://www.linkedin.com/in/florian-fanor-704a18132"
@@ -67,14 +67,14 @@ export const Footer = () => {
                 className="p-2.5 rounded-lg border bg-card hover:bg-accent hover:border-primary/50 transition-all hover:scale-110"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="w-5 h-5" />
+                <Linkedin className="w-5 h-5" aria-hidden="true" />
               </a>
               <a
                 href="mailto:florianfanor@gmail.com"
                 className="p-2.5 rounded-lg border bg-card hover:bg-accent hover:border-primary/50 transition-all hover:scale-110"
                 aria-label="Email"
               >
-                <Mail className="w-5 h-5" />
+                <Mail className="w-5 h-5" aria-hidden="true" />
               </a>
             </div>
           </div>

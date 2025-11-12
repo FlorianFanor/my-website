@@ -229,21 +229,24 @@ export const AboutMe = () => {
 
         {/* Main Content Tabs */}
         <Tabs defaultValue="experience" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 lg:grid-cols-4 mb-8">
-            <TabsTrigger value="experience">
-              <Briefcase className="w-4 h-4 mr-2" />
+          <TabsList
+            aria-label="Main content tabs"
+            className="w-full mb-8 grid grid-cols-2 gap-2 md:grid-cols-4 h-auto p-2 rounded-xl"
+          >
+            <TabsTrigger value="experience" className="whitespace-nowrap snap-start flex-shrink-0">
+              <Briefcase className="w-4 h-4 mr-2 text-foreground" />
               {t("aboutme.tab.experience")}
             </TabsTrigger>
-            <TabsTrigger value="education">
-              <GraduationCap className="w-4 h-4 mr-2" />
+            <TabsTrigger value="education" className="whitespace-nowrap snap-start flex-shrink-0">
+              <GraduationCap className="w-4 h-4 mr-2 text-foreground" />
               {t("aboutme.tab.education")}
             </TabsTrigger>
-            <TabsTrigger value="skills">
-              <Code2 className="w-4 h-4 mr-2" />
+            <TabsTrigger value="skills" className="whitespace-nowrap snap-start flex-shrink-0">
+              <Code2 className="w-4 h-4 mr-2 text-foreground" />
               {t("aboutme.tab.skills")}
             </TabsTrigger>
-            <TabsTrigger value="interests">
-              <Palette className="w-4 h-4 mr-2" />
+            <TabsTrigger value="interests" className="whitespace-nowrap snap-start flex-shrink-0">
+              <Palette className="w-4 h-4 mr-2 text-foreground" />
               {t("aboutme.tab.interests")}
             </TabsTrigger>
           </TabsList>

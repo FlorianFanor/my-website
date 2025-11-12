@@ -452,8 +452,13 @@ export const Projects = ({ limit, featuredIds, onViewMore }: ProjectsProps = {})
                       )}
                     {selectedProject.demo && selectedProject.demo !== "#" && (
                       <Button asChild variant="outline" className="flex-1">
-                        <a href={selectedProject.demo} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="w-4 h-4 mr-2" />
+                        <a
+                          href={selectedProject.demo}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`${t("projects.view")} ${t(selectedProject.titleKey)}`}
+                        >
+                          <ExternalLink className="w-4 h-4 mr-2" aria-hidden="true" />
                           {t("projects.demo")}
                         </a>
                       </Button>

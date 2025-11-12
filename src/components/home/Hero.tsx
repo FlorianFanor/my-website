@@ -71,7 +71,10 @@ export const Hero = ({ onNavigate }: HeroProps) => {
               className="group p-3 rounded-full border bg-card hover:bg-accent hover:border-primary/50 transition-all hover:scale-110"
               aria-label="GitHub"
             >
-              <Github className="w-5 h-5 group-hover:text-primary transition-colors" />
+              <Github
+                className="w-5 h-5 group-hover:text-primary transition-colors"
+                aria-hidden="true"
+              />
             </a>
             <a
               href="https://www.linkedin.com/in/florian-fanor-704a18132"
@@ -80,14 +83,20 @@ export const Hero = ({ onNavigate }: HeroProps) => {
               className="group p-3 rounded-full border bg-card hover:bg-accent hover:border-primary/50 transition-all hover:scale-110"
               aria-label="LinkedIn"
             >
-              <Linkedin className="w-5 h-5 group-hover:text-primary transition-colors" />
+              <Linkedin
+                className="w-5 h-5 group-hover:text-primary transition-colors"
+                aria-hidden="true"
+              />
             </a>
             <a
               href="mailto:florianfanor@gmail.com"
               className="group p-3 rounded-full border bg-card hover:bg-accent hover:border-primary/50 transition-all hover:scale-110"
               aria-label="Email"
             >
-              <Mail className="w-5 h-5 group-hover:text-primary transition-colors" />
+              <Mail
+                className="w-5 h-5 group-hover:text-primary transition-colors"
+                aria-hidden="true"
+              />
             </a>
           </div>
         </div>
