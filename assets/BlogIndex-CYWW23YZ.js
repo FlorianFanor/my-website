@@ -1,1 +1,0 @@
-import{r as o,j as t}from"./index-E3ltkVX-.js";import{B as r}from"./BlogList-BVfpWpbN.js";import"./card-wFfMnluj.js";import"./badge-Cm8dV7vK.js";const n=()=>(o.useEffect(()=>{document.title="Blog - Florian Fanor"},[]),t.jsx(r,{}));export{n as BlogIndex};

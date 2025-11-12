@@ -1,1 +1,0 @@
-import{j as s}from"./index-E3ltkVX-.js";const o=()=>s.jsxs("div",{className:"container mx-auto px-4 sm:px-6 lg:px-8 py-20",children:[s.jsx("h1",{className:"mb-4",children:"404"}),s.jsx("p",{className:"text-muted-foreground",children:"This page could not be found."})]});export{o as NotFound};
