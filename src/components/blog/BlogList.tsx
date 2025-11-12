@@ -14,150 +14,61 @@ export interface BlogPost {
   readTime: string;
   category: string;
   tags: string[];
+  externalUrl?: string;
 }
 
 export const blogPosts: BlogPost[] = [
   {
-    id: 1,
-    title: "Les bases de l'accessibilité web",
+    id: 4,
+    title: "Digital Accessibility in France: A Wake‑Up Call for 2025",
     excerpt:
-      "Découvrez pourquoi l'accessibilité web est essentielle et comment la mettre en œuvre dans vos projets.",
-    content: `# Les bases de l'accessibilité web
+      "France is raising the bar on digital accessibility. Here’s why 2025 is a turning point and how teams can get ready.",
+    content: `# Digital Accessibility in France: A Wake‑Up Call for 2025
 
-L'accessibilité web n'est pas seulement une bonne pratique, c'est une nécessité. Elle garantit que votre site peut être utilisé par tous, y compris les personnes en situation de handicap.
+France is stepping up enforcement of digital accessibility. For public services this has long been mandatory under the RGAA. Now the pressure expands to the private sector through EU directives (European Accessibility Act) and growing legal and user expectations.
 
-## Pourquoi l'accessibilité est importante
+## What changes in 2025
+- Stronger focus on measurable conformance (WCAG 2.1/2.2)
+- Increased exposure and reputational risk for non‑compliance
+- Procurement requirements: accessibility by default
 
-1. **Inclusion** : Permet à tous d'accéder à l'information
-2. **Légal** : Souvent requis par la loi
-3. **SEO** : Améliore le référencement
-4. **UX** : Bénéficie à tous les utilisateurs
+## What teams should do now
+1. Embed accessibility in design and product processes
+2. Adopt semantic HTML and keyboard‑first thinking
+3. Ensure color contrast, focus states, and clear error handling
+4. Automate checks in CI and run expert audits regularly
 
-## Principes WCAG
+Accessibility is not a one‑off task—it’s a continuous quality practice that benefits everyone.
 
-Les Web Content Accessibility Guidelines définissent 4 principes :
-
-- **Perceptible** : L'information doit être présentée de façon perceptible
-- **Utilisable** : L'interface doit être utilisable
-- **Compréhensible** : L'information doit être compréhensible
-- **Robuste** : Le contenu doit être compatible avec les technologies d'assistance
-
-## Conseils pratiques
-
-- Utilisez des balises sémantiques HTML
-- Fournissez des alternatives textuelles pour les images
-- Assurez un contraste suffisant
-- Rendez tout navigable au clavier
-- Testez avec des lecteurs d'écran
-
-L'accessibilité est un voyage continu, pas une destination !`,
-    date: "2025-10-15",
-    readTime: "5 min",
-    category: "Accessibilité",
-    tags: ["a11y", "WCAG", "Best Practices"],
+Read the full article on Medium for concrete steps, examples, and a practical roadmap.`,
+    date: "2024-12-15",
+    readTime: "7 min",
+    category: "Accessibility",
+    tags: ["a11y", "France", "RGAA", "WCAG"],
+    externalUrl:
+      "https://medium.com/@florianfanor/digital-accessibility-in-france-a-wake-up-call-for-2025-0dade1ce8112",
   },
   {
-    id: 2,
-    title: "React Server Components : Le guide complet",
+    id: 5,
+    title: "The Observer APIs in React: Intersection, Mutation, Resize",
     excerpt:
-      "Comprendre les React Server Components et comment ils transforment le développement web moderne.",
-    content: `# React Server Components : Le guide complet
+      "How and when to use the browser’s Observer APIs in React: Patterns, pitfalls, and production tips.",
+    content: `# The Observer APIs in React: Intersection, Mutation, Resize
 
-Les React Server Components (RSC) représentent une évolution majeure dans l'écosystème React.
+IntersectionObserver, MutationObserver, and ResizeObserver unlock powerful UI patterns without heavy event listeners. In this article, we explore:
 
-## Qu'est-ce qu'un Server Component ?
+- When each Observer fits best
+- Clean React patterns that avoid memory leaks
+- Performance considerations and batching
+- Testing strategies and SSR gotchas
 
-Les Server Components sont des composants React qui s'exécutent uniquement côté serveur. Contrairement aux composants classiques, ils ne sont jamais envoyés au client.
-
-## Avantages principaux
-
-### 1. Performance
-- Réduction de la taille du bundle JavaScript
-- Chargement plus rapide
-- Meilleure expérience utilisateur
-
-### 2. Accès direct aux données
-- Pas besoin d'API endpoints
-- Requêtes de base de données directes
-- Moins de code boilerplate
-
-### 3. Sécurité
-- Le code sensible reste sur le serveur
-- Pas d'exposition des secrets
-
-## Cas d'usage
-
-Les Server Components sont parfaits pour :
-- Affichage de contenu statique
-- Récupération de données
-- Composants qui ne nécessitent pas d'interactivité
-
-Pour l'interactivité, utilisez des Client Components avec la directive 'use client'.
-
-## Conclusion
-
-Les RSC ouvrent de nouvelles possibilités pour créer des applications plus performantes et sécurisées.`,
-    date: "2025-10-28",
-    readTime: "8 min",
+Includes code samples and a checklist to help you ship reliable observers in production.`,
+    date: "2025-01-10",
+    readTime: "9 min",
     category: "React",
-    tags: ["React", "Server Components", "Next.js"],
-  },
-  {
-    id: 3,
-    title: "TypeScript : Au-delà des bases",
-    excerpt:
-      "Explorez les fonctionnalités avancées de TypeScript pour écrire du code plus sûr et maintenable.",
-    content: `# TypeScript : Au-delà des bases
-
-TypeScript offre bien plus que de simples annotations de types. Explorons des fonctionnalités avancées.
-
-## Types utilitaires
-
-TypeScript inclut des types utilitaires puissants :
-
-\`\`\`typescript
-// Partial - rend toutes les propriétés optionnelles
-type User = { name: string; email: string; age: number };
-type PartialUser = Partial<User>;
-
-// Pick - sélectionne des propriétés
-type UserPreview = Pick<User, 'name' | 'email'>;
-
-// Omit - exclut des propriétés
-type UserWithoutAge = Omit<User, 'age'>;
-\`\`\`
-
-## Types conditionnels
-
-Les types conditionnels permettent une logique de typage avancée :
-
-\`\`\`typescript
-type IsString<T> = T extends string ? true : false;
-type Result1 = IsString<string>; // true
-type Result2 = IsString<number>; // false
-\`\`\`
-
-## Inférence de types
-
-Laissez TypeScript faire le travail :
-
-\`\`\`typescript
-const user = { name: 'Alice', age: 30 } as const;
-type User = typeof user;
-\`\`\`
-
-## Bonnes pratiques
-
-1. Utilisez \`unknown\` plutôt que \`any\`
-2. Activez le mode strict
-3. Exploitez l'inférence
-4. Créez des types réutilisables
-
-TypeScript est un outil puissant qui, utilisé correctement, améliore considérablement la qualité du code.`,
-    date: "2025-11-01",
-    readTime: "6 min",
-    category: "TypeScript",
-    tags: ["TypeScript", "Advanced", "Types"],
+    tags: ["React", "IntersectionObserver", "MutationObserver", "ResizeObserver"],
+    externalUrl:
+      "https://medium.com/@florianfanor/the-observer-apis-in-react-intersection-mutation-resize-e3a6a823c234",
   },
 ];
 
@@ -200,9 +111,22 @@ export const BlogList = () => {
                   </Badge>
                 ))}
               </div>
-              <Button asChild variant="link" className="mt-auto self-start p-0">
-                <Link to={`/blog/${post.id}`}>{t("blog.readArticle")}</Link>
-              </Button>
+              {post.externalUrl ? (
+                <Button asChild variant="link" className="mt-auto self-start p-0">
+                  <a
+                    href={post.externalUrl}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    aria-label={`${t("blog.readArticle")} (Medium)`}
+                  >
+                    {t("blog.readArticle")}
+                  </a>
+                </Button>
+              ) : (
+                <Button asChild variant="link" className="mt-auto self-start p-0">
+                  <Link to={`/blog/${post.id}`}>{t("blog.readArticle")}</Link>
+                </Button>
+              )}
             </CardContent>
           </Card>
         ))}

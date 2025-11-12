@@ -16,7 +16,7 @@ const translations = {
     "nav.home": "Accueil",
     "nav.projects": "Projets",
     "nav.about": "À propos",
-    "nav.blog": "Blog",
+    "nav.blog": "Articles",
     "nav.contact": "Contact",
 
     // Hero
@@ -378,11 +378,11 @@ const translations = {
     "about.header.language.en": "Passer en Français",
 
     // Blog
-    "blog.title": "Blog",
+    "blog.title": "Articles",
     "blog.description":
       "Mes réflexions sur le développement web, les bonnes pratiques et les nouvelles technologies.",
     "blog.readArticle": "Lire l'article →",
-    "blog.backToBlog": "Retour au blog",
+    "blog.backToBlog": "Retour aux articles",
     "blog.readTime": "min",
 
     // About Me - UI Labels
@@ -408,7 +408,7 @@ const translations = {
     "aboutme.why.title": "Pourquoi unir nos forces ?",
     "aboutme.why.1.title": "Expertise technique complète & IA",
     "aboutme.why.1.text":
-      "Plus de 8 ans d’expérience full‑stack, architectures cloud, et intégration pragmatique de l’IA/ML (fonctionnalités assistées par l’IA lorsqu’elles créent de la valeur).",
+      "Plus de 8 ans en full‑stack et architectures cloud. Intégration IA/ML pragmatique lorsqu’elle apporte de la valeur (expérience plus récente).",
     "aboutme.why.2.title": "Passion pour la qualité",
     "aboutme.why.2.text":
       "Code propre, testé et maintenable. Forte attention portée à l’accessibilité, la performance et l’expérience utilisateur.",
@@ -474,7 +474,7 @@ const translations = {
     // Education
     "edu.1.degree": "Bachelor of Technology en Génie Logiciel",
     "edu.1.school": "Curtin University",
-    "edu.1.location": "Perth, Australie",
+    "edu.1.location": "Mauritius",
     "edu.1.period": "2014 - 2017",
     "edu.1.description":
       "Programme complet de génie logiciel axé sur les pratiques de développement modernes, la conception de systèmes et l'architecture logicielle.",
@@ -518,7 +518,7 @@ const translations = {
     "nav.home": "Home",
     "nav.projects": "Projects",
     "nav.about": "About",
-    "nav.blog": "Blog",
+    "nav.blog": "Articles",
     "nav.contact": "Contact",
 
     // Hero
@@ -869,10 +869,10 @@ const translations = {
     "about.header.language.en": "Switch to French",
 
     // Blog
-    "blog.title": "Blog",
+    "blog.title": "Articles",
     "blog.description": "My thoughts on web development, best practices, and new technologies.",
     "blog.readArticle": "Read article →",
-    "blog.backToBlog": "Back to blog",
+    "blog.backToBlog": "Back to articles",
     "blog.readTime": "min",
 
     // About Me - UI Labels
@@ -898,7 +898,7 @@ const translations = {
     "aboutme.why.title": "why join forces?",
     "aboutme.why.1.title": "Full technical expertise & AI",
     "aboutme.why.1.text":
-      "8+ years full‑stack, cloud architectures, and pragmatic AI/ML integration (AI‑assisted features only when they add real value).",
+      "8+ years in full‑stack and cloud architectures. Pragmatic AI/ML integration where it adds value (more recent experience).",
     "aboutme.why.2.title": "Quality‑driven",
     "aboutme.why.2.text":
       "Clean, tested, maintainable code. Strong focus on accessibility, performance, and user experience.",
@@ -963,7 +963,7 @@ const translations = {
     // Education
     "edu.1.degree": "Bachelor of Technology in Software Engineering",
     "edu.1.school": "Curtin University",
-    "edu.1.location": "Perth, Australia",
+    "edu.1.location": "Mauritius",
     "edu.1.period": "2014 - 2017",
     "edu.1.description":
       "Comprehensive software engineering program focusing on modern development practices, system design, and software architecture.",

@@ -51,15 +51,15 @@ export const Contact = () => {
                   {language === "fr" ? "Bientôt disponible" : "Coming soon"}
                 </span>
               </div>
-              <CardHeader>
+              <CardHeader aria-hidden="true">
                 <div className="flex items-center gap-2 mb-2">
                   <MessageCircle className="w-6 h-6 text-primary" />
                   <CardTitle>{t("contact.form.title")}</CardTitle>
                 </div>
                 <CardDescription>{t("contact.form.description")}</CardDescription>
               </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-6">
+              <CardContent aria-hidden="true">
+                <form inert onSubmit={handleSubmit} className="space-y-6">
                   <div className="space-y-2">
                     <Label htmlFor="name" className="flex items-center gap-2">
                       {t("contact.form.name")}

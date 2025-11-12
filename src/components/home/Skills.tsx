@@ -180,9 +180,9 @@ export const Skills = () => {
       </div>
 
       <style>{`
-        /* Dark mode logo filter */
-        .dark [style*="--logo-filter"] img {
-          filter: brightness(0) saturate(100%) invert(1);
+        /* Dark mode: invert tech logos to white via CSS variable */
+        .dark [style*="--logo-filter"] {
+          --logo-invert: 1;
         }
       `}</style>
     </section>

@@ -11,7 +11,7 @@ const App = () => {
       <LanguageProvider>
         <div className="min-h-screen flex flex-col">
           <Header />
-          <main className="flex-1">
+          <main id="main-content" tabIndex={-1} className="flex-1">
             <AppRoutes />
           </main>
           <Footer />

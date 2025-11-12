@@ -31,7 +31,7 @@ export const Header = () => {
             className="hover:opacity-80 transition-opacity"
             aria-label={t("footer.backToTop")}
           >
-            <span className="text-2xl">{"<Dev />"}</span>
+            <span className="text-2xl">{"</>"}</span>
           </Link>
 
           {/* Desktop Navigation */}
