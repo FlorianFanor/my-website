@@ -1,0 +1,1 @@
+import{r,j as t}from"./index-D8Q1IdtA.js";import{P as o}from"./Projects-BN2cZRlB.js";import"./card-CaWT8Qj2.js";import"./badge-DCqjBJbS.js";import"./index-k3LsfL3_.js";const a=()=>(r.useEffect(()=>{document.title="Projects - Florian Fanor"},[]),t.jsx(o,{}));export{a as ProjectsPage};
