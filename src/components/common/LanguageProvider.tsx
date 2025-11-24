@@ -415,6 +415,7 @@ const translations = {
     "aboutme.technologies": "Technologies utilisées",
     "aboutme.education.title": "Formation",
     "aboutme.certifications.title": "Certifications",
+    "aboutme.continuous.title": "Apprentissage continu",
     "aboutme.skills.title": "Compétences techniques",
     "aboutme.languages.title": "Langues",
     "aboutme.interests.title": "Centres d'intérêt",
@@ -500,6 +501,12 @@ const translations = {
     "cert.2": "Spécialiste en accessibilité WCAG 2.1",
     "cert.3": "Développement avancé React & Next.js",
     "cert.4": "Professionnel GraphQL & Apollo",
+
+    // Continuous learning
+    "cont.1": "Frontend Masters — Advanced React Patterns (2024)",
+    "cont.2": "Epic React — Kent C. Dodds (2023)",
+    "cont.3": "TypeScript: Types avancés et bonnes pratiques (2023)",
+    "cont.4": "Veille: WCAG 2.2/3.0, WAI-ARIA, performance web (continu)",
 
     // Languages
     "lang.english": "Anglais",
@@ -921,6 +928,7 @@ const translations = {
     "aboutme.technologies": "Technologies Used",
     "aboutme.education.title": "Education",
     "aboutme.certifications.title": "Certifications",
+    "aboutme.continuous.title": "Continuous learning",
     "aboutme.skills.title": "Technical Skills",
     "aboutme.languages.title": "Languages",
     "aboutme.interests.title": "Interests & Hobbies",
@@ -1005,6 +1013,12 @@ const translations = {
     "cert.2": "WCAG 2.1 Accessibility Specialist",
     "cert.3": "React & Next.js Advanced Development",
     "cert.4": "GraphQL & Apollo Professional",
+
+    // Continuous learning
+    "cont.1": "Frontend Masters — Advanced React Patterns (2024)",
+    "cont.2": "Epic React — Kent C. Dodds (2023)",
+    "cont.3": "TypeScript: Advanced Types & Best Practices (2023)",
+    "cont.4": "Reading: WCAG 2.2/3.0, WAI-ARIA, web performance (ongoing)",
 
     // Languages
     "lang.english": "English",
