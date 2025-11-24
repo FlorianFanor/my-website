@@ -128,6 +128,13 @@ const getCertifications = (t: (key: string) => string) => [
   { name: t("cert.4"), year: "2022" },
 ];
 
+const getContinuousLearning = (t: (key: string) => string) => [
+  { name: t("cont.1"), year: "2024" },
+  { name: t("cont.2"), year: "2023" },
+  { name: t("cont.3"), year: "2023" },
+  { name: t("cont.4"), year: "2024" },
+];
+
 const skillsWithLevels = [
   "React / Next.js",
   "TypeScript",
@@ -163,6 +170,7 @@ export const AboutMe = () => {
   const experiences = getExperiences(t);
   const education = getEducation(t);
   const certifications = getCertifications(t);
+  const continuous = getContinuousLearning(t);
   const languages = getLanguages(t);
   const interests = getInterests(t);
 
@@ -345,6 +353,23 @@ export const AboutMe = () => {
                       <div>
                         <p>{cert.name}</p>
                         <p className="text-sm text-muted-foreground">{cert.year}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+
+            <h2 className="mb-6 mt-8">{t("aboutme.continuous.title")}</h2>
+            <Card>
+              <CardContent className="pt-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {continuous.map((item, index) => (
+                    <div key={index} className="flex items-start gap-3">
+                      <BookOpen className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p>{item.name}</p>
+                        <p className="text-sm text-muted-foreground">{item.year}</p>
                       </div>
                     </div>
                   ))}
