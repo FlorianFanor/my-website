@@ -1,4 +1,4 @@
-import{c as d,u as x,j as e,B as i,M as m,G as u,L as g,r as c,a as b}from"./index-D8Q1IdtA.js";import{A as f,P as v}from"./Projects-BN2cZRlB.js";import{D as j,C as y,P as N}from"./palette-D4yAxSCd.js";import"./card-CaWT8Qj2.js";import"./badge-DCqjBJbS.js";import"./index-k3LsfL3_.js";/**
+import{c as d,u as x,j as e,B as i,M as m,G as u,L as g,r as c,a as b}from"./index-DUXwijkU.js";import{A as f,P as v}from"./Projects-DyB2fGD2.js";import{D as j,C as y,P as N}from"./palette-xZCDiXD_.js";import"./card-CWQKljsq.js";import"./badge-C_InuWJC.js";import"./index-BNIwJkJC.js";/**
  * @license lucide-react v0.487.0 - ISC
  *
  * This source code is licensed under the ISC license.
@@ -42,4 +42,4 @@ import{c as d,u as x,j as e,B as i,M as m,G as u,L as g,r as c,a as b}from"./ind
         .dark [style*="--logo-filter"] {
           --logo-invert: 1;
         }
-      `})]})},P=()=>{const r=b();return c.useEffect(()=>{document.title="Florian Fanor - Full-Stack Developer"},[]),e.jsxs(e.Fragment,{children:[e.jsx(F,{onNavigate:a=>r(a==="home"?"/":`/${a}`)}),e.jsx(v,{featuredIds:[4,6,7],onViewMore:()=>r("/projects")}),e.jsx(L,{})]})};export{P as Home};
+      `})]})},P=()=>{const r=b();return c.useEffect(()=>{document.title="Florian Fanor - Full-Stack Developer"},[]),e.jsxs(e.Fragment,{children:[e.jsx(F,{onNavigate:a=>r(a==="home"?"/":`/${a}`)}),e.jsx(v,{featuredIds:[8,4,6],onViewMore:()=>r("/projects")}),e.jsx(L,{})]})};export{P as Home};
