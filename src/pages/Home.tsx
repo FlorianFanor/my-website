@@ -15,7 +15,7 @@ export const Home = () => {
   return (
     <>
       <Hero onNavigate={page => navigate(page === "home" ? "/" : `/${page}`)} />
-      <Projects featuredIds={[4, 6, 7]} onViewMore={() => navigate("/projects")} />
+      <Projects featuredIds={[8, 4, 6]} onViewMore={() => navigate("/projects")} />
       <Skills />
     </>
   );

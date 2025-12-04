@@ -182,6 +182,32 @@ const translations = {
     "project.pampers.result3": "Performances optimisées pour un trafic global",
     "project.pampers.result4": "Site accessible conformément aux standards",
 
+    "project.devprep.title": "DevPrep",
+    "project.devprep.description":
+      "Plateforme de préparation aux entretiens techniques avec des quiz personnalisables par rôle, catégorie et difficulté.",
+    "project.devprep.full":
+      "Plateforme complète d'entraînement aux entretiens techniques pour développeurs. Propose des quiz MCQ configurables par rôle (Backend, Frontend, Full-Stack, DevOps), catégorie (Coding, System Design, Behavioral, CS Fundamentals) et mode (Practice ou Timed).",
+    "project.devprep.context":
+      "Projet personnel visant à aider les développeurs à se préparer efficacement aux entretiens techniques en proposant des questions ciblées avec explications détaillées.",
+
+    "project.devprep.challenge1":
+      "Créer une expérience utilisateur intuitive pour la configuration des quiz",
+    "project.devprep.challenge2": "Gérer une base de données de questions variées et pertinentes",
+    "project.devprep.challenge3":
+      "Implémenter deux modes distincts (practice et timed) avec feedback adapté",
+    "project.devprep.challenge4": "Assurer la qualité et la pertinence des explications",
+
+    "project.devprep.solution1": "Interface moderne avec Next.js et Tailwind CSS",
+    "project.devprep.solution2": "Base de données PostgreSQL avec Prisma pour une gestion efficace",
+    "project.devprep.solution3":
+      "Système de routing React pour gérer les modes et afficher les résultats",
+    "project.devprep.solution4": "Contenu éditorial soigné avec explications techniques détaillées",
+
+    "project.devprep.result1": "Plateforme déployée sur Vercel avec accès public",
+    "project.devprep.result2": "Questions couvrant 5 domaines essentiels",
+    "project.devprep.result3": "Interface intuitive et responsive",
+    "project.devprep.result4": "Feedback immédiat pour un apprentissage efficace",
+
     "project.bulma.title": "Bulma Solution",
     "project.bulma.description":
       "Suite d’applications RH : app mobile React Native et app web React pour accompagner les étapes du recrutement ; backend Python (API).",
@@ -705,6 +731,30 @@ const translations = {
     "project.pampers.result2": "Support for multiple international markets",
     "project.pampers.result3": "Optimized performance for global traffic",
     "project.pampers.result4": "Accessible site meeting standards",
+
+    "project.devprep.title": "DevPrep",
+    "project.devprep.description":
+      "Interview prep platform with configurable MCQ quizzes for developers by role, category, and difficulty.",
+    "project.devprep.full":
+      "Comprehensive technical interview training platform for developers. Offers configurable MCQ quizzes by role (Backend, Frontend, Full-Stack, DevOps), category (Coding, System Design, Behavioral, CS Fundamentals), and mode (Practice or Timed).",
+    "project.devprep.context":
+      "Personal project aimed at helping developers effectively prepare for technical interviews by providing targeted questions with detailed explanations.",
+
+    "project.devprep.challenge1": "Create an intuitive user experience for quiz configuration",
+    "project.devprep.challenge2": "Manage a database of varied and relevant questions",
+    "project.devprep.challenge3":
+      "Implement two distinct modes (practice and timed) with adapted feedback",
+    "project.devprep.challenge4": "Ensure quality and relevance of explanations",
+
+    "project.devprep.solution1": "Modern interface built with Next.js and Tailwind CSS",
+    "project.devprep.solution2": "PostgreSQL database with Prisma for efficient management",
+    "project.devprep.solution3": "React routing system to handle modes and display results",
+    "project.devprep.solution4": "Carefully curated content with detailed technical explanations",
+
+    "project.devprep.result1": "Platform deployed on Vercel with public access",
+    "project.devprep.result2": "Questions covering 5 essential domains",
+    "project.devprep.result3": "Intuitive and responsive interface",
+    "project.devprep.result4": "Immediate feedback for effective learning",
 
     "project.bulma.title": "Bulma Solution",
     "project.bulma.description":

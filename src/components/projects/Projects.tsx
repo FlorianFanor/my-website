@@ -249,14 +249,47 @@ const projectsData: Project[] = [
       "project.pampers.result4",
     ],
   },
+  {
+    id: 8,
+    titleKey: "project.devprep.title",
+    descriptionKey: "project.devprep.description",
+    fullDescriptionKey: "project.devprep.full",
+    contextKey: "project.devprep.context",
+    image:
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    tags: ["React", "Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS"],
+    github: "https://github.com/FlorianFanor/dev-prep-public",
+    demo: "https://dev-prep-silk.vercel.app/",
+    challengeKeys: [
+      "project.devprep.challenge1",
+      "project.devprep.challenge2",
+      "project.devprep.challenge3",
+      "project.devprep.challenge4",
+    ],
+    solutionKeys: [
+      "project.devprep.solution1",
+      "project.devprep.solution2",
+      "project.devprep.solution3",
+      "project.devprep.solution4",
+    ],
+    resultKeys: [
+      "project.devprep.result1",
+      "project.devprep.result2",
+      "project.devprep.result3",
+      "project.devprep.result4",
+    ],
+  },
 ];
 
 export const Projects = ({ limit, featuredIds, onViewMore }: ProjectsProps = {}) => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const { t } = useLanguage();
 
-  // Split projects into personal (1-3) and client (4-7)
-  const personalProjects = projectsData.slice(0, 3);
+  // Split projects into personal (1-3, 8) and client (4-7)
+  const personalProjects = [
+    ...projectsData.slice(0, 3),
+    projectsData.find(p => p.id === 8)!,
+  ].filter(Boolean);
   const clientProjects = projectsData.slice(3, 7);
 
   const displayedPersonal = limit
@@ -436,7 +469,7 @@ export const Projects = ({ limit, featuredIds, onViewMore }: ProjectsProps = {})
                     </div>
                   </div>
                   <div className="flex gap-3 pt-4">
-                    {selectedProject.id < 4 &&
+                    {(selectedProject.id < 4 || selectedProject.id === 8) &&
                       selectedProject.github &&
                       selectedProject.github !== "#" && (
                         <Button asChild className="flex-1" size="lg">
@@ -624,7 +657,7 @@ export const Projects = ({ limit, featuredIds, onViewMore }: ProjectsProps = {})
 
                 {/* Action Buttons */}
                 <div className="flex gap-3 pt-4">
-                  {selectedProject.id < 4 &&
+                  {(selectedProject.id < 4 || selectedProject.id === 8) &&
                     selectedProject.github &&
                     selectedProject.github !== "#" && (
                       <Button asChild className="flex-1" size="lg">
