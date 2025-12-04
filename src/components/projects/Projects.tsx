@@ -18,6 +18,7 @@ import { Separator } from "../ui/separator";
 import { useLanguage } from "../common/LanguageProvider";
 import pampersImage from "../../assets/pampers.webp";
 import soneparImage from "../../assets/sonepar.webp";
+import devprepImage from "../../assets/devprep.png";
 
 interface ProjectsProps {
   limit?: number;
@@ -255,8 +256,7 @@ const projectsData: Project[] = [
     descriptionKey: "project.devprep.description",
     fullDescriptionKey: "project.devprep.full",
     contextKey: "project.devprep.context",
-    image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    image: devprepImage,
     tags: ["React", "Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS"],
     github: "https://github.com/FlorianFanor/dev-prep-public",
     demo: "https://dev-prep-silk.vercel.app/",
